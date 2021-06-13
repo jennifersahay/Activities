@@ -1,0 +1,64 @@
+<html>
+<head>
+<style> body{
+font:100% Lucida Console; margin:20px;
+line-height:26px;
+}
+#top{
+background-color: #438292; color: #ffffff;
+padding: 15px;
+}
+#menubar{ width:100%; float:left;
+}
+#main{ padding: 55px; margin:0;
+}
+#bottom{
+border: 1px solid #d4d4d4; background-color: #999999; text-align: center;
+padding: 5px; font-size: 50%; line-height: 10px;
+}
+h1, h2{
+color: #c60000;
+
+}
+.menuitem{
+border-radius: 5px; width: 165px; float: left;
+background-color: #eb7171; color: #ffffff;
+list-style-type: none; margin: 4px; padding: 5px;
+text-align: center; cursor: pointer;
+}
+
+.menuitem:hover{ background-color: #feffa5;
+}
+a:link, a:visited{
+color: #000000; text-decoration: none;
+}
+a:hover, a:active{
+text-decoration: none;
+}
+<link href="style.css" rel="stylesheet">
+</style>
+</head>
+<body>
+<div id="top">
+<h1>Welcome to My Homepage</h1>
+<p>Use the menu to select different Stylesheets</p>
+</div>
+<div id="menubar">
+<ul id="menulist">
+<li class="menuitem"><a href="defstyle.html">Stylesheet 1</a>
+<li class="menuitem"><a href="exstyle.html">Stylesheet 2</a>
+<li class="menuitem"><a href="nostyle.html">No Stylesheet</a>
+</ul>
+</div>
+
+<div id="main">
+<h1>Same Page Content Different Stylesheet</h1>
+<p>This is a demonstration of how different stylesheets can change the layout of your HTML page. You can change the layout of this page by selecting different stylesheets in the menu.</p>
+<h2>No Style</h2>
+<p>This page uses DIV elements to group different sections of the HTML page.</p>
+</div>
+<div id="bottom">
+Lorem opsum dolor sit amet, consecteruer adipscing elit, seddiam nonummy nibh eulsmod rincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam,quis nostrud exerci tation ullamcorper suscipit lobartis nisl ut aliquip ex ea commodo consequat.</div>
+
+</body>
+</html>
